@@ -10,10 +10,12 @@ namespace WordCountName.Tests
   [TestMethod]
    public void FindWord_Userinputwordisincludedinsentence_True()
    {
-     string inputValue = userWord;
+     string userWord = "bill";
+     string userSentence = "bring it over bill";
+  string Replace = userSentence.Replace(userWord,"");
 
-     Translate testTranslate = new Translate();
-      Assert.AreEqual(inputValue, testWordCounter.FindWord(userWord));
+     Translate testTranslate = new Translate(userWord,userSentence,Replace);
+      Assert.AreEqual(Replace, testTranslate.FindWord(userWord,userSentence,Replace));
    }
 }
 }
