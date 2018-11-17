@@ -30,16 +30,7 @@ public   class Translate
   }
 }
 
-     // var arr = userWord.ToCharArray();
+    
 
 
-//     }
-//     public string RemoveWord()
-//     {
-// string userSentence = Consol.ReadLine();
-// string[] split = userSentence.split(' ');
-// for each()
-
-//     }
-//   }
 // }
