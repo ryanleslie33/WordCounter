@@ -7166,11 +7166,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter\\WordCounter.csproj",
+      "projectUniqueName": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "projectName": "WordCounter",
-      "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter\\WordCounter.csproj",
+      "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj",
       "packagesPath": "C:\\Users\\ryan leslie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter\\obj\\",
+      "outputPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ryan leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",

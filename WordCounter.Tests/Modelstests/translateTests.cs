@@ -11,13 +11,13 @@ namespace WordCountName.Tests
    public void FindWord_Userinputwordisincludedinsentence_True()
    {
      string userWord = "bill";
-     string userSentence = "bring it over bill bill";
+     string userSentence = "bring it over bill ";
 
      int Result = WordCounter.ReturnCount(userWord,userSentence);
-      Assert.AreEqual(2,Result);
+      Assert.AreEqual(1,Result);
    }
    [TestMethod]
-    public void FindWord_userEntersWordThatDoes_True()
+    public void FindWord_user_inputWord_is_included_in_the_sentence_twice_True()
     {
       string userWord = "bill";
       string userSentence = "bring it over bill bill";
@@ -25,6 +25,23 @@ namespace WordCountName.Tests
       int Result = WordCounter.ReturnCount(userWord,userSentence);
        Assert.AreEqual(2,Result);
     }
-}
+    [TestMethod]
+     public void FindWord_user_inputWord_is_counted_with_uppercasing_True()
+     {
+       string userWord = "Bill";
+       string userSentence = "bring it over bill bill";
 
+       int Result = WordCounter.ReturnCount(userWord,userSentence);
+        Assert.AreEqual(2,Result);
+     }
+     [TestMethod]
+      public void FindWord_user_inputWord_is_nothing__True()
+      {
+        string userWord = "";
+        string userSentence = "";
+
+        int Result = WordCounter.ReturnCount(userWord,userSentence);
+         Assert.AreEqual(1,Result);
+      }
+ }
 }

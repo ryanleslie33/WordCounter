@@ -8645,11 +8645,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "projectName": "WordCounter.Tests",
-      "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter.Tests\\WordCounter.Tests.csproj",
+      "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter.Tests\\WordCounter.Tests.csproj",
       "packagesPath": "C:\\Users\\ryan leslie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter.Tests\\obj\\",
+      "outputPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ryan leslie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8666,8 +8666,8 @@
       "frameworks": {
         "netcoreapp1.1": {
           "projectReferences": {
-            "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter\\WordCounter.csproj": {
-              "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter.solution\\WordCounter\\WordCounter.csproj"
+            "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj": {
+              "projectPath": "C:\\Users\\ryan leslie\\Desktop\\WordCounter\\WordCounter\\WordCounter.csproj"
             }
           }
         }
