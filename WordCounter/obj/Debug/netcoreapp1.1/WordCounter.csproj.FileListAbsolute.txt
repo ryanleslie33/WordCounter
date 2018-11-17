@@ -7,3 +7,5 @@ C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\bin\Debug\netcorea
 C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.pdb
 C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.dll
 C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\obj\Debug\netcoreapp1.1\WordCounter.pdb
+C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.json
+C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter\bin\Debug\netcoreapp1.1\WordCounter.runtimeconfig.dev.json

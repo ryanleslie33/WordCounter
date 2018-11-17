@@ -3,34 +3,26 @@ using System;
 
 namespace WordCountName
 {
-public   class Translate
+public   class WordCounter
   {
-  public string userWord;
-  public string userSentence;
-  public string Replace;
-
-  public Translate(string inputValue, string userSentenceValue, string ReplaceValue)
-{
-      userWord = inputValue;
-      userSentence = userSentenceValue;
-      Replace = ReplaceValue;
-}
-
-    public string FindWord(string input,string userSentence, string ReplaceValue)
+    public static int ReturnCount(string userWord,string userSentence)
     {
-      if ( userSentence.Contains(userWord))
+      string[] words = userSentence.ToLower().Split(",.?/ ".ToCharArray() );
+      int result = 0;
+      foreach(string word in words)
       {
-        return Replace;
-      }
-      else
-      {
-            return userSentence;
-      }
-    }
-  }
+        if ( userWord.ToLower() == word)
+        {
+          result ++;
+        }
+
+      }// end foreach
+      return  result;
+    } //end ReturnCount
+  }//end WordCounter
 }
 
-    
+
 
 
 // }

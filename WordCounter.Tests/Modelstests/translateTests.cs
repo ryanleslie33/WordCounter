@@ -11,11 +11,20 @@ namespace WordCountName.Tests
    public void FindWord_Userinputwordisincludedinsentence_True()
    {
      string userWord = "bill";
-     string userSentence = "bring it over bill";
-  string Replace = userSentence.Replace(userWord,"");
+     string userSentence = "bring it over bill bill";
 
-     Translate testTranslate = new Translate(userWord,userSentence,Replace);
-      Assert.AreEqual(Replace, testTranslate.FindWord(userWord,userSentence,Replace));
+     int Result = WordCounter.ReturnCount(userWord,userSentence);
+      Assert.AreEqual(2,Result);
    }
+   [TestMethod]
+    public void FindWord_userEntersWordThatDoes_True()
+    {
+      string userWord = "bill";
+      string userSentence = "bring it over bill bill";
+
+      int Result = WordCounter.ReturnCount(userWord,userSentence);
+       Assert.AreEqual(2,Result);
+    }
 }
+
 }
