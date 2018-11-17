@@ -1,48 +1,54 @@
-# _{Application Name}_
+# _Ryan Leslie_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _User inputs a word and a sentence if the word appears in that sentece it takes a count of how many times it appears., {November 17, 2018_
 
-#### By _**{List of contributors}**_
+#### By _**Ryan Leslie**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This application will ask the user the enter in a word, after the user enters that word it will then ask the user to enter a sentence. Once the user has entered a sentence it will look inside of that sentence to see if the word they entered has appeared anywhere in that sentence even if it is just part of the word in sentence that matches. How ever many times the word they entered appears in the sentence it outputs a count. So if the users word was "DOG", and their sentence said dog three times, it will display a count of 3 and then start all over again. The application is not case or character sensitive.}_
 
 ## Specifications
 
-*_user inputs a word and outputs is that word.
+*_user is asked to input a word of their choice.
 This would be a good way to get started and capture that word as a string and list it as a variable so it will be able to identify in a sentence.
 
-*_user is asked to provide a sentence and outputs that sentence.
+*_user is asked to provide a sentence.
 Just getting the output to be a sentence with each word as a string I think would be the first step to being able to isolate each word to check for the inputted word.
 
-*_Users inputted sentenced is then checked for the following word input and the output is that sentence with the given inputted word removed.
-creating a for each function or a for loop going through each string of words is a good step in the process to focus on because it is the main function that makes it work.
+*_After user inputs the sentence the app will take the sentence and split each word into its own string.
+this is a good step because each word has to be its own string in order for it to be identified.
+
+*_Once user input sentence is split the app will look for the specific word input they used and run a count for each time it is displayed.
+Simply using an if statement to see the if inputted word matches anywhere inside the sentence.
+
+*_The user output will then be the count for how many times the word appears inside the sentence.
+Making variable named result to be the final count and final output.
+
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* _Clone the repository_
+* _cd into the WordCounter.solutions directory_
+* _cd into WordCounter sub-directory_
+* _inside the comman line input "dotnet Run"_
+* _No other installation requirements_
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+_There are no known bug at this time._
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_If there are any problems with the application or you have any questions please contact me at the email listed below.
+ryanleslie33@aol.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_this application was written in C-Sharp._
 
 ### License
+_This application is Licensed under the MIT software Licence agreement._
+*THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
-
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2018 **_Ryan Leslie, Epicodus_**
