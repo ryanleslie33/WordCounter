@@ -7,17 +7,17 @@ namespace WordCountName.Controllers
 {
   public class WordController : Controller
   {
-    [HttpGet("/WordCounterView")]
+    [HttpGet("/Word")]
     public ActionResult Index()
     {
       return View();
     }
-    [HttpGet("/WordCounterView/New")]
+    [HttpGet("/Word/New")]
       public ActionResult New()
       {
         return View();
       }
-      [HttpPost("/WordCounterView")]
+      [HttpPost("/Word")]
   public ActionResult Create(string userWord)
   {
     return RedirectToAction("Index");
