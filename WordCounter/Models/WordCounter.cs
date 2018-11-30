@@ -15,13 +15,13 @@ public   class WordCounter
         {
           result ++;
         }
-
-      }// end foreach
+} 
+      // end foreach
       return  result;
-    } //end ReturnCount
+    //end ReturnCount
   }//end WordCounter
 }
-
+}
 
 
 
