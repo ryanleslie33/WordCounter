@@ -10,7 +10,9 @@ namespace WordCountName.Controllers
     [HttpGet("/Word")]
     public ActionResult Index()
     {
-      return View();
+
+      List<WordCounter> allWordCounter = WordCounter.GetAll();
+      return View(allWordCounter);
     }
     [HttpGet("/Word/New")]
       public ActionResult New()

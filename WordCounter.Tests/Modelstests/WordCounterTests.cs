@@ -47,5 +47,18 @@ namespace WordCountName.Tests
         int Result = WordCounter.ReturnCount(userWord,userSentence);
          Assert.AreEqual(1,Result);
       }
+      [TestMethod]
+     public void GetId_WordsInstantiateWithAnIdAndGetterReturns_Int()
+     {
+       //Arrange
+       string description = "Walk the dog.";
+       WordCounter newWordCounter = new WordCounter(description);
+
+       //Act
+       int result = newWordCounter.GetId();
+
+       //Assert
+       Assert.AreEqual(1, result);
+     }
  }
 }
