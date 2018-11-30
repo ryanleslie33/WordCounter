@@ -1,5 +1,8 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using WordCountName;
+using WordCountName.Models;
+using System.Collections.Generic;
+using System;
+
 
 namespace WordCountName.Tests
 {

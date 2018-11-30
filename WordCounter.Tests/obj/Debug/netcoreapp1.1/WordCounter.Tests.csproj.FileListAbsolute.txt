@@ -46,3 +46,10 @@ C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1
 /Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
 /Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
 /Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb
