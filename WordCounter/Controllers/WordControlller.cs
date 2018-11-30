@@ -10,7 +10,7 @@ namespace WordCountName.Controllers
     [HttpGet("/Word")]
     public ActionResult Index()
     {
-      List<Category> allCategories = Category.GetAll();
+      
       return View(allCategories);
     }
     [HttpGet("/Word/new")]
@@ -19,9 +19,8 @@ namespace WordCountName.Controllers
         return View();
       }
       [HttpPost("/word")]
-  public ActionResult Create(string categoryName)
+  public ActionResult Create(string userWord, string userSentence)
   {
-    Category newCategory = new Category(categoryName);
-    List<Category> allCategories = Category.GetAll();
-    return RedirectToAction("Index", allCategories);
+
+    return RedirectToAction("Index", );
   }
