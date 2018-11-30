@@ -7,32 +7,45 @@ using WordCountName.Models;
 namespace WordCountName.Tests
 {
   [TestClass]
-public class WordControllerTest
-{
-
-  [TestMethod]
-  public void Index_ReturnsCorrectView_True()
+  public class WordControllerTest
   {
-    //Arrange
-    WordController controller = new WordController();
 
-    //Act
-    ActionResult indexView = controller.Index();
+    [TestMethod]
+    public void Index_ReturnsCorrectView_True()
+    {
+      //Arrange
+      WordController controller = new WordController();
 
-    //Assert
-    Assert.IsInstanceOfType(indexView, typeof(ViewResult));
-  }
-  [TestMethod]
+      //Act
+      ActionResult indexView = controller.Index();
+
+      //Assert
+      Assert.IsInstanceOfType(indexView, typeof(ViewResult));
+    }
+    [TestMethod]
     public void Create_ReturnsCorrectActionType_RedirectToActionResult()
     {
-        //Arrange
-        WordController controller = new WordController();
+      //Arrange
+      WordController controller = new WordController();
 
-        //Act
-        IActionResult view = controller.Create("Walk the dog");
+      //Act
+      IActionResult view = controller.Create("Walk the dog");
 
-        //Assert
-        Assert.IsInstanceOfType(view, typeof(RedirectToActionResult));
+      //Assert
+      Assert.IsInstanceOfType(view, typeof(RedirectToActionResult));
     }
-}
+    [TestMethod]
+    public void Create_RedirectsToCorrectAction_Index()
+    {
+      //Arrange
+      WordController controller = new WordController();
+      RedirectToActionResult actionResult = controller.Create("Walk the dog") as RedirectToActionResult;
+
+      //Act
+      string result = actionResult.ActionName;
+
+      //Assert
+      Assert.AreEqual(result, "Index");
+    }
+  }
 }
