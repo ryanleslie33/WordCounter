@@ -1,34 +1,48 @@
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.deps.json
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.runtimeconfig.json
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.runtimeconfig.dev.json
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.pdb
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.pdb
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csprojAssemblyReference.cache
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csproj.CoreCompileInputs.cache
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfoInputs.cache
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfo.cs
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csproj.CopyComplete
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.dll
-C:\Users\ryan leslie\Desktop\WordCounter.solution\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.pdb
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csprojAssemblyReference.cache
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csproj.CoreCompileInputs.cache
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfoInputs.cache
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.AssemblyInfo.cs
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.pdb
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.deps.json
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.runtimeconfig.json
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.runtimeconfig.dev.json
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.Tests.pdb
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.dll
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\bin\Debug\netcoreapp1.1\WordCounter.pdb
-C:\Users\ryan leslie\Desktop\WordCounter\WordCounter.Tests\obj\Debug\netcoreapp1.1\WordCounter.Tests.csproj.CopyComplete
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.deps.json
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.json
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.dev.json
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csprojAssemblyReference.cache
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfoInputs.cache
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CopyComplete
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
+C:/Users/ryan leslie/Desktop/WordCounter.solution/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csprojAssemblyReference.cache
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfoInputs.cache
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.deps.json
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.json
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.dev.json
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.dll
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.pdb
+C:/Users/ryan leslie/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CopyComplete
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.deps.json
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.json
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
+/Users/Guest/Desktop/WordCounter/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.deps.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/bin/Debug/netcoreapp1.1/WordCounter.Tests.runtimeconfig.dev.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.AssemblyInfo.cs
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter.Tests/obj/Debug/netcoreapp1.1/WordCounter.Tests.pdb

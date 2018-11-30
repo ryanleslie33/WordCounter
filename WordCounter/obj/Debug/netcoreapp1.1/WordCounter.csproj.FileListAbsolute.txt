@@ -29,3 +29,12 @@ C:/Users/ryan leslie/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/Wor
 /Users/Guest/Desktop/WordCounter/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb
 /Users/Guest/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
 /Users/Guest/Desktop/WordCounter/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.deps.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.runtimeconfig.dev.json
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/bin/Debug/netcoreapp1.1/WordCounter.pdb
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.csproj.CoreCompileInputs.cache
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.AssemblyInfo.cs
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.dll
+/Users/Guest/Desktop/WordCounter.Solutions/WordCounter/obj/Debug/netcoreapp1.1/WordCounter.pdb

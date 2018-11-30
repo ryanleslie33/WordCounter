@@ -1,7 +1,7 @@
 using System;
 
 
-namespace WordCountName
+namespace WordCountName.Models
 {
 public   class WordCounter
   {

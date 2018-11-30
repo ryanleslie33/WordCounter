@@ -4,7 +4,7 @@ using WordCountName;
 namespace WordCountName.Tests
 {
   [TestClass]
-  public class TranslateTests
+  public class WordCounterTests
   {
 
   [TestMethod]
@@ -12,6 +12,7 @@ namespace WordCountName.Tests
    {
      string userWord = "bill";
      string userSentence = "bring it over bill ";
+     // WordCounter newWordCounter = new WordCounter(userWord, userSentence);
 
      int Result = WordCounter.ReturnCount(userWord,userSentence);
       Assert.AreEqual(1,Result);
