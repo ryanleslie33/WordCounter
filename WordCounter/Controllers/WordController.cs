@@ -18,8 +18,9 @@ namespace WordCountName.Controllers
         return View();
       }
       [HttpPost("/Word")]
-  public ActionResult Create(string userWord)
+  public ActionResult Create(string userWord, string userSentence)
   {
+    WordCounter myWord = new WordCounter(userWord, userSentence);
     return RedirectToAction("Index");
   }
 }

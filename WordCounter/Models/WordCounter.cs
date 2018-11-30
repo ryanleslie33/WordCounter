@@ -5,6 +5,9 @@ namespace WordCountName.Models
 {
 public   class WordCounter
   {
+    public string userWord;
+    public string userSentence;
+
     public static int ReturnCount(string userWord,string userSentence)
     {
       string[] words = userSentence.ToLower().Split(",.?/ ".ToCharArray() );
@@ -15,7 +18,7 @@ public   class WordCounter
         {
           result ++;
         }
-} 
+}
       // end foreach
       return  result;
     //end ReturnCount
