@@ -17,10 +17,10 @@ namespace WordCountName.Controllers
       {
         return View();
       }
-  //     [HttpPost("/WordCounterView")]
-  // public ActionResult Create(string userWord, string userSentence)
-  // {
-  //   return RedirectToAction("Index" );
-  // }
+      [HttpPost("/WordCounterView")]
+  public ActionResult Create(string userWord)
+  {
+    return RedirectToAction("Index");
+  }
 }
 }
