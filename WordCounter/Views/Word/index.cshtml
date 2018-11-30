@@ -1,4 +1,11 @@
+@using WordCountName.Models;
+<h2>Your word count listed below</h2>
+<ul>
+  @foreach (WordCounter wordcounter in Model)
+  {
+    /* foreach City Information inside the model */
+    <li><a href='/Word/{id}/@wordcounter.GetId()'>@Model.GetAll()</a></li>
+    /* getId grabs _id */
+  }
 
-
-
-<p>Your word has appeared this many times>@Model.ReturnCount()</p>
+</ul>

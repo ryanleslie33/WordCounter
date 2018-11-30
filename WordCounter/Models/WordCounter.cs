@@ -38,6 +38,22 @@ namespace WordCountName.Models
       {
         return _id;
       }
+      public string GetWord()
+      {
+        return _userWord;
+      }
+      public void SetWord(string userWords)
+      {
+       _userWord = userWords;
+      }
+      public string GetSentence()
+      {
+        return _userSentence;
+      }
+      public void SetSentence(string userSentences)
+      {
+       _userSentence = userSentences;
+      }
       public static List<WordCounter> GetAll()
       {
         return _instances;
@@ -46,6 +62,7 @@ namespace WordCountName.Models
       {
         return _instances[searchId-1];
       }
+
     }
   }
 
