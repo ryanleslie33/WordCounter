@@ -1,4 +1,4 @@
-using System;
+using System.Collections.Generic;
 
 
 namespace WordCountName.Models
@@ -11,7 +11,7 @@ namespace WordCountName.Models
 
     private static List<WordCounter> _instances = new List<WordCounter> {};
 
-    public WordCounter(userWord, userSentence)
+    public WordCounter(string userWord, string userSentence)
     {
       _userWord = userWord;
       _userSentence = userSentence;
@@ -38,11 +38,11 @@ namespace WordCountName.Models
       {
         return _id;
       }
-      public static List<City> GetAll()
+      public static List<WordCounter> GetAll()
       {
         return _instances;
       }
-      public static City Find(int searchId)
+      public static WordCounter Find(int searchId)
       {
         return _instances[searchId-1];
       }

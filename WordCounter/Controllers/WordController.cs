@@ -23,5 +23,6 @@ namespace WordCountName.Controllers
     WordCounter myWord = new WordCounter(userWord, userSentence);
     return RedirectToAction("Index");
   }
+  
 }
 }
