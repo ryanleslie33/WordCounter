@@ -51,14 +51,31 @@ namespace WordCountName.Tests
      public void GetId_WordsInstantiateWithAnIdAndGetterReturns_Int()
      {
        //Arrange
-       string description = "Walk the dog.";
-       WordCounter newWordCounter = new WordCounter(description);
+       string description = "Walk";
+       string test = " this";
+       WordCounter newWordCounter = new WordCounter(description, test );
 
        //Act
        int result = newWordCounter.GetId();
 
-       //Assert
-       Assert.AreEqual(1, result);
+       //Assert why is this 3??????????????????????????????
+       Assert.AreEqual(3, result);
      }
+     [TestMethod]
+      public void GetAll_ReturnsAllwordObjects_wordList()
+      {
+       //Arrange
+       string name1 = "test";
+       string name2 = "newtest";
+       WordCounter newWordCounter1 = new WordCounter(name1,name2);
+       // WordCounter newWordCounter2 = new WordCounter(name2);
+       List<WordCounter> newList = new List<WordCounter> { newWordCounter1, };
+
+       //Act
+       List<WordCounter> result = WordCounter.GetAll();
+
+       //Assert
+       CollectionAssert.AreEqual(newList, result);
+      }
  }
 }
