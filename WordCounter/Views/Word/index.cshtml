@@ -4,7 +4,7 @@
   @foreach (WordCounter wordcounter in Model)
   {
     /* foreach City Information inside the model */
-    <li><a href='/Word/@wordcounter.GetId()'>@wordcounter.GetWord()</a></li>
+    <li><a href='/Word/@wordcounter.GetId()'>@wordcounter.GetSentence()</a></li>
     /* getId grabs _id */
   }
 

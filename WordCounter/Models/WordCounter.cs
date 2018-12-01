@@ -19,7 +19,7 @@ namespace WordCountName.Models
       _id = _instances.Count;
     }
 
-    public static int ReturnCount(string userWord,string userSentence)
+    public static int GetReturnCount(string userWord,string userSentence)
     {
       string[] words = userSentence.ToLower().Split(",.?/ ".ToCharArray() );
       int result = 0;
@@ -34,6 +34,10 @@ namespace WordCountName.Models
       return  result;
       //end ReturnCount
       }
+      // public static int   SetReturnCount()
+      // {
+      //   return result;
+      // }
       public int GetId()
       {
         return _id;
