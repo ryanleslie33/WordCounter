@@ -17,7 +17,7 @@ namespace WordCountName.Tests
      string userSentence = "bring it over bill ";
      // WordCounter newWordCounter = new WordCounter(userWord, userSentence);
 
-     int Result = WordCounter.ReturnCount(userWord,userSentence);
+     int Result = WordCounter.GetReturnCount(userWord,userSentence);
       Assert.AreEqual(1,Result);
    }
    [TestMethod]
@@ -26,7 +26,7 @@ namespace WordCountName.Tests
       string userWord = "bill";
       string userSentence = "bring it over bill bill";
 
-      int Result = WordCounter.ReturnCount(userWord,userSentence);
+      int Result = WordCounter.GetReturnCount(userWord,userSentence);
        Assert.AreEqual(2,Result);
     }
     [TestMethod]
@@ -35,7 +35,7 @@ namespace WordCountName.Tests
        string userWord = "Bill";
        string userSentence = "bring it over bill bill";
 
-       int Result = WordCounter.ReturnCount(userWord,userSentence);
+       int Result = WordCounter.GetReturnCount(userWord,userSentence);
         Assert.AreEqual(2,Result);
      }
      [TestMethod]
@@ -44,36 +44,38 @@ namespace WordCountName.Tests
         string userWord = "";
         string userSentence = "";
 
-        int Result = WordCounter.ReturnCount(userWord,userSentence);
+        int Result = WordCounter.GetReturnCount(userWord,userSentence);
          Assert.AreEqual(1,Result);
       }
       [TestMethod]
      public void GetId_WordsInstantiateWithAnIdAndGetterReturns_Int()
      {
+      WordCounter.ClearAll();
        //Arrange
        string description = "Walk";
        string test = " this";
        WordCounter newWordCounter = new WordCounter(description, test );
+       WordCounter newWordCounter2 = new WordCounter(description, test );
 
        //Act
-       int result = newWordCounter.GetId();
+       int result = newWordCounter2.GetId();
 
        //Assert why is this 3??????????????????????????????
-       Assert.AreEqual(3, result);
+       Assert.AreEqual(2, result);
      }
      [TestMethod]
       public void GetAll_ReturnsAllwordObjects_wordList()
       {
+          WordCounter.ClearAll();
        //Arrange
        string name1 = "test";
        string name2 = "newtest";
        WordCounter newWordCounter1 = new WordCounter(name1,name2);
-       // WordCounter newWordCounter2 = new WordCounter(name2);
-       List<WordCounter> newList = new List<WordCounter> { newWordCounter1, };
-
+       WordCounter newWordCounter = new WordCounter(name1, name2 );
+       List<WordCounter> newList = new List<WordCounter> { newWordCounter1, newWordCounter };
        //Act
        List<WordCounter> result = WordCounter.GetAll();
-
+       Console.WriteLine("how many items"+ result.Count);
        //Assert
        CollectionAssert.AreEqual(newList, result);
       }
