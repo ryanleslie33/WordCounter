@@ -4,8 +4,12 @@
   @foreach (WordCounter wordcounter in Model)
   {
     /* foreach City Information inside the model */
-    <li><a href='/Word/@wordcounter.GetId()'>@wordcounter.GetSentence()</a></li>
-    /* getId grabs _id */
+    <li><a href='/Word/@wordcounter.GetId()'> Your sentence is :@wordcounter.GetSentence()
+    <br/>
+    Your word is @wordcounter.GetWord()
+    <br/>
+     Your count is:@wordcounter.GetCount()</a></li>
+
   }
 
 </ul>

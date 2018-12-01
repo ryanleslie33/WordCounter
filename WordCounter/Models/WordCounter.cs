@@ -9,6 +9,7 @@ namespace WordCountName.Models
     private string _userSentence;
     private int _id;
 
+
     private static List<WordCounter> _instances = new List<WordCounter> {};
 
     public WordCounter(string userWord, string userSentence)
@@ -34,6 +35,11 @@ namespace WordCountName.Models
       return  result;
       //end ReturnCount
       }
+      public  int GetCount()
+      {
+        return WordCounter.GetReturnCount(_userWord,_userSentence);
+      }
+
       // public static int   SetReturnCount()
       // {
       //   return result;
